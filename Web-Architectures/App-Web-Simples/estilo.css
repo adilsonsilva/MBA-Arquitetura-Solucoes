@@ -1,0 +1,36 @@
+div.content {
+    border: 1px solid #000000;
+    min-height: 250px;
+    margin: 40px auto;
+    width: 550px;
+  }
+
+.divFormulario {
+    padding: 10px 10px 10px 10px;
+}
+
+.divFormulario h1:first-child {
+    background-color: #005c99;
+    font-size: 2em;
+    text-align: center;
+    color: #FFFFFF;
+    left: -10px;
+    position: relative;
+    width: 550px;
+}
+
+.divFormulario h2{
+    text-align: center;
+}
+
+div.divFormulario div.form{
+    position:relative;
+    left: 40px;
+}
+
+.divResultado h3{
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    width: 550px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calcular IMC</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+        <div class="content">
+            <div class="divFormulario">
+                <h1>Calculadora de IMC</h1>
+                <h2>Entre com os dados e veja como esta seu Indice!</h2>
+                <div class="form">
+                    <input id="altura" type="text" placeholder="Digite sua Altura. Ex: 1.75"/>
+                    <input id="peso" type="text" placeholder="Digite seu Peso. Ex: 75"/>
+                    <button id="calcular" type="button" onclick="AcaoController.calcularIndice()" >Calcular</button>
+                </div>
+            <div class="divResultado">
+                <h3 id="resultado"></h3>
+            </div>
+        </div>
+    </body>
+    <script lang="text/javascript" src="acoes.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
